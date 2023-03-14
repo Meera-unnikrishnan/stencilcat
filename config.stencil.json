@@ -1,0 +1,12 @@
+{
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {
+      "contact.html": "/contact/"
+    },
+    "product": {}
+  },
+  "normalStoreUrl": "https://meera-dev.mybigcommerce.com/",
+  "port": 3000
+}
