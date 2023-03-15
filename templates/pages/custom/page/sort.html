@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sort</title>
+    {{{stylesheet '/assets/css/customtheme.css'}}}
+    {{{stylesheet '/assets/css/theme.css'}}}
+
+    <link href="../../../../assets/custom/css/font-awesome.css" rel="stylesheet">
+    <link href="../../../../assets/custom/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <section id="aa-product-category">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-8 col-md-push-3">
+                    <div class="aa-product-catg-content">
+                        <div class="aa-product-catg-head">
+                            <div class="aa-product-catg-head-left">
+                                <!-- <form action="" class="aa-sort-form">
+                                    <label for="">Sort by</label>
+                                    <select name="">
+                                      <option value="1" selected="Default">Default</option>
+                                      <option value="2">Name</option>
+                                      <option value="3">Price</option>
+                                      <option value="4">Date</option>
+                                    </select>
+                                  </form> -->
+                            
+                                {{> components/products/filter sort=pagination.category.sort}}
+                                <!-- <div class="aa-sort-form"> -->
+                                <!-- {{>components/products/filter}} -->
+
+                                <!-- </div> -->
+                           
+
+
+                                <form action="" class="aa-show-form">
+                                    <label for="">Show</label>
+                                    <select name="">
+                                        <option value="1" selected="12">12</option>
+                                        <option value="2">24</option>
+                                        <option value="3">36</option>
+                                    </select>
+                                </form>
+                            </div>
+
+                            <div class="aa-product-catg-head-right">
+                                <a id="grid-catg" href="#"><span class="fa fa-th"></span></a>
+                                <a id="list-catg" href="#"><span class="fa fa-list"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../assets/custom/js/bootstrap.js"></script>
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="../../../../assets/custom/js/jquery.smartmenus.js"></script>
+<!-- SmartMenus jQuery Bootstrap Addon -->
+<script type="text/javascript" src="../../../../assets/custom/js/jquery.smartmenus.bootstrap.js"></script>
+<!-- To Slider JS -->
+<script src="../../../../assets/custom/js/sequence.js"></script>
+<script src="../../../../assets/custom/js/sequence-theme.modern-slide-in.js"></script>
+<!-- Product view slider -->
+<script type="text/javascript" src="../../../../assets/custom/js/jquery.simpleGallery.js"></script>
+<script type="text/javascript" src="../../../../assets/custom/js/jquery.simpleLens.js"></script>
+<!-- slick slider -->
+<script type="text/javascript" src="../../../../assets/custom/js/slick.js"></script>
+<!-- Price picker slider -->
+<script type="text/javascript" src="../../../../assets/custom/js/nouislider.js"></script>
+<!-- Custom js -->
+<script src="../../../../assets/custom/js/custom.js"></script>
+
+
+</html>
